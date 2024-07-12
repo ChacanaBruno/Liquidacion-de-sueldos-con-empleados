@@ -6,7 +6,7 @@ public class EmpleadoPermanente extends Empleado {
 
 	private int cantHijos;
 	private int antiguedad;
-	private boolean conyugue; // esto no se si es tipo boolean o que
+	private boolean conyugue;
 
 	// Constructor con herencia de la clase Empleado
 	public EmpleadoPermanente(String nombre, String cuit, String estadoCivil, LocalDate fechaNacimiento,
